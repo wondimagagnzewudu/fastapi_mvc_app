@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose[cryptography]  # For JWT
+passlib[bcrypt]  # For password hashing
+redis  # For in-memory caching
+python-dotenv  # For .env support
+python-multipart  # For file uploads
+pytest  # For testing
+httpx  # For testing HTTP requests
